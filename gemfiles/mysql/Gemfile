@@ -25,7 +25,7 @@ group :test do
 
   gem 'minitest'
   gem 'minitest-reporters'
-  gem 'minitest-rails', '>= 6.1.0'
+  gem 'minitest-rails', '>= 7.0.0'
   gem 'selenium-webdriver', '4.2.1'
 end
 
@@ -79,7 +79,7 @@ gem 'will_paginate-bootstrap-style'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'foreman'
-gem 'jquery-rails', '>= 4.5.0'
+gem 'jquery-rails', '>= 4.5.1'
 gem 'puma'
 gem 'oj'
 gem 'devise', '>= 4.8.1'
