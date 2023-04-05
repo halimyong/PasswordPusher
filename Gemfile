@@ -2,7 +2,7 @@ source 'https://rubygems.org'.freeze
 
 ruby ENV['CUSTOM_RUBY_VERSION'] || '>=2.7.0'
 
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.0.4', '>= 7.0.4.3'
 
 group :development do
   gem 'debase', '0.2.5.beta2'
@@ -19,13 +19,13 @@ end
 
 group :test do
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 3.37.1', '< 4.0'
+  gem 'capybara', '>= 3.38.0', '< 4.0'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
 
   gem 'minitest'
   gem 'minitest-reporters'
-  gem 'minitest-rails', '>= 6.1.0'
+  gem 'minitest-rails', '>= 7.0.0'
   gem 'selenium-webdriver', '4.2.1'
 end
 
@@ -78,7 +78,7 @@ gem 'will_paginate-bootstrap-style'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'foreman'
-gem 'jquery-rails', '>= 4.5.0'
+gem 'jquery-rails', '>= 4.5.1'
 gem 'puma'
 gem 'oj'
 gem 'devise', '>= 4.8.1'
