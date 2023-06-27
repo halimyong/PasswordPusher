@@ -79,7 +79,7 @@ gem 'will_paginate-bootstrap-style'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'foreman'
-gem 'jquery-rails', '>= 4.5.0'
+gem 'jquery-rails', '>= 4.6.0'
 gem 'puma'
 gem 'oj'
 gem 'devise', '>= 4.8.1'
