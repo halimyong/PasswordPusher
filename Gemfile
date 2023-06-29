@@ -2,7 +2,7 @@ source 'https://rubygems.org'.freeze
 
 ruby ENV['CUSTOM_RUBY_VERSION'] || '>=2.7.0'
 
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.0.5', '>= 7.0.5.1'
 
 group :development do
   gem 'debase', '0.2.5.beta2'
@@ -68,7 +68,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11', '>= 2.11.5'
 gem 'json', '~> 2.0' # Legacy carry-over
-gem 'webpacker', '>= 5.4.3'
+gem 'webpacker', '>= 5.4.4'
 gem 'will_paginate', '~> 3.3.0'
 gem 'will_paginate-bootstrap-style'
 
@@ -78,15 +78,15 @@ gem 'will_paginate-bootstrap-style'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'foreman'
-gem 'jquery-rails', '>= 4.5.0'
+gem 'jquery-rails', '>= 4.6.0'
 gem 'puma'
 gem 'oj'
-gem 'devise', '>= 4.8.1'
+gem 'devise', '>= 4.9.0'
 gem 'config'
-gem 'route_translator', '>= 13.0.0'
+gem 'route_translator', '>= 13.1.0'
 gem 'translation'
-gem 'mail_form', '>= 1.9.0'
-gem 'apipie-rails'
+gem 'mail_form', '>= 1.10.0'
+gem 'apipie-rails', '>= 0.9.0'
 gem 'simple_token_authentication', '~> 1.18', '>= 1.18.0', git: "https://github.com/pglombardo/simple_token_authentication.git", branch: 'rails7-support'
 gem 'lograge'
 gem 'rollbar'
