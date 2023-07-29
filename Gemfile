@@ -88,7 +88,7 @@ gem 'translation'
 gem 'mail_form', '>= 1.9.0'
 gem 'apipie-rails'
 gem 'simple_token_authentication', '~> 1.18', '>= 1.18.0', git: "https://github.com/pglombardo/simple_token_authentication.git", branch: 'rails7-support'
-gem 'lograge'
+gem 'lograge', '>= 0.13.0'
 gem 'rollbar'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
