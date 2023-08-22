@@ -241,7 +241,7 @@ GEM
       timeout
     net-smtp (0.3.3)
       net-protocol
-    nio4r (2.5.8)
+    nio4r (2.5.9)
     nokogiri (1.13.9)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
@@ -260,7 +260,7 @@ GEM
       byebug (~> 11.0)
       pry (>= 0.13, < 0.15)
     public_suffix (5.0.0)
-    puma (6.0.0)
+    puma (6.3.1)
       nio4r (~> 2.0)
     racc (1.6.0)
     rack (2.2.4)
@@ -426,7 +426,7 @@ DEPENDENCIES
   mysql2
   oj
   pry-byebug
-  puma
+  puma (>= 6.3.1)
   rack-attack
   rack-cors
   rack-throttle
