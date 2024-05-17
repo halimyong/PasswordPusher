@@ -9,7 +9,7 @@ group :development do
   gem 'listen'
 
   # Visual Studio Additions
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.40.0'
   gem 'ruby-debug-ide'
 
   # Access an interactive console on exception pages or by
@@ -26,7 +26,7 @@ group :test do
   gem 'minitest'
   gem 'minitest-reporters'
   gem 'minitest-rails', '>= 6.1.0'
-  gem 'selenium-webdriver', '4.2.1'
+  gem 'selenium-webdriver', '4.3.0'
 end
 
 group :development, :test do
