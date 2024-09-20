@@ -79,7 +79,7 @@ gem 'will_paginate-bootstrap-style'
 
 gem 'foreman'
 gem 'jquery-rails', '>= 4.5.0'
-gem 'puma'
+gem 'puma', '>= 6.4.3'
 gem 'oj'
 gem 'devise', '>= 4.8.1'
 gem 'config'
