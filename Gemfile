@@ -9,7 +9,7 @@ group :development do
   gem 'listen'
 
   # Visual Studio Additions
-  gem 'rubocop'
+  gem 'rubocop', '>= 1.66.0'
   gem 'ruby-debug-ide'
 
   # Access an interactive console on exception pages or by
