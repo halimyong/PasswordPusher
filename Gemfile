@@ -52,7 +52,7 @@ gem 'rack-attack'
 #
 gem 'lockbox'
 gem 'high_voltage'
-gem 'kramdown', require: false
+gem 'kramdown', '>= 2.5.1', require: false
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
