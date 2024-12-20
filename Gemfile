@@ -2,7 +2,7 @@ source 'https://rubygems.org'.freeze
 
 ruby ENV['CUSTOM_RUBY_VERSION'] || '>=2.7.0'
 
-gem 'rails', '~> 7.0.4'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.7'
 
 group :development do
   gem 'debase', '0.2.5.beta2'
@@ -25,7 +25,7 @@ group :test do
 
   gem 'minitest'
   gem 'minitest-reporters'
-  gem 'minitest-rails', '>= 6.1.0'
+  gem 'minitest-rails', '>= 8.0.0'
   gem 'selenium-webdriver', '4.2.1'
 end
 
