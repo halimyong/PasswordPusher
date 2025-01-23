@@ -1,5 +1,5 @@
 # pwpush-ephemeral
-FROM ruby:3-slim
+FROM ruby:3.3.7-slim
 
 LABEL maintainer='pglombardo@hey.com'
 
